@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import tra from '../l10n';
 
 class About extends Component {
   render() {
     return (
       <div>
-        About
+        {tra.get('topBar.loginButton.logout')}
       </div>
     );
   }

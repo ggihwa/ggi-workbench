@@ -1,0 +1,26 @@
+.flex {
+  //Default is row nowrap.
+  display: flex;
+  //flex-direction: column
+  flex-wrap: wrap;
+  width: 800px;
+  height: 500px;
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: space-around;
+
+  li {
+    text-align: center;
+    flex: 1 1 0;
+    min-width:260px;
+    list-style: none;
+    border: 1px solid;
+  }
+
+  .order {
+    flex: 2 2 0;
+    order: -1;
+    align-self: flex-start;
+  }
+}

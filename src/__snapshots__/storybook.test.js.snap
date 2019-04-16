@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Task achived 1`] = `
+<div
+  className="list-item TASK_ARCHIVED"
+>
+  <label
+    className="checkbox"
+    htmlFor=""
+  >
+    <input
+      defaultChecked={true}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      readOnly={true}
+      type="text"
+      value="Story book"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task default 1`] = `
+<div
+  className="list-item undefined"
+>
+  <label
+    className="checkbox"
+    htmlFor=""
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      readOnly={true}
+      type="text"
+      value="Story book"
+    />
+  </div>
+  <div
+    className="actions"
+  >
+    <a>
+      <span
+        className="icon-star"
+        onClick={[Function]}
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task pinned 1`] = `
+<div
+  className="list-item TASK_PINNED"
+>
+  <label
+    className="checkbox"
+    htmlFor=""
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      readOnly={true}
+      type="text"
+      value="Story book"
+    />
+  </div>
+  <div
+    className="actions"
+  >
+    <a>
+      <span
+        className="icon-star"
+        onClick={[Function]}
+      />
+    </a>
+  </div>
+</div>
+`;
